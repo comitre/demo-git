@@ -2,7 +2,7 @@ OBJECTS = CAppender.o CConsoleAppender.o CFileAppender.o CRollingFileAppender.o 
 
 INCLUDES = /home/adrian/programacion/c++/librerias
 
-# Emplear el compilador de GNU-
+# Emplear el compilador de GNU
 CXX = g++
 # Compilacion con el estandar c++ 17 (hay que incluir tambien la opcion -lstdc++fs)
 CXXFLAGS = -fPIC -std=c++17 -I$(INCLUDES) -lstdc++fs
